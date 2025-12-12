@@ -89,11 +89,9 @@ Devido ao tamanho massivo do dataset, os arquivos CSV **não estão incluídos**
 
 ## **Como Executar**
 
-Com o ambiente configurado e os dados na pasta correta, execute o script principal:
+Com o ambiente configurado e os dados na pasta correta, abra o notebook ids.ipynb na sua IDE de preferência (VScode, Jupyter Notebook..) e execute as células, podendo fazer alterações nos arquivos lidos, nos hiperparâmetros, e nos casos de teste.
 
-python src/main.py
-
-### **O que o script realiza:**
+### **O que o notebook realiza:**
 
 1. **Carregamento e Limpeza:** Lê os CSVs, sanitiza colunas numéricas e remove cabeçalhos repetidos.  
 2. **Engenharia de Features:** Seleciona as 23 features mais relevantes, e gera identificadores únicos de fluxo (Flow\_Label).  
