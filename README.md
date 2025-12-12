@@ -34,7 +34,7 @@ Em nossos testes com a versão otimizada, e com o dataset em sua forma reduzida 
 
 * **Processador:** AMD Ryzen 7 7800X3D (8-Core)  
 * **Memória RAM:** 32 GB  
-* **Tempo Total de Execução:** \~30 minutos (processando todos os cenários de teste).
+* **Tempo Total de Execução:** \~15 minutos
 
 ### **Pré-requisitos de Software**
 
