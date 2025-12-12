@@ -6,7 +6,7 @@ Este repositório contém o código-fonte utilizado no artigo **"Otimização e 
 
 Este trabalho foi agraciado com o prêmio de **3º Melhor Artigo** da ERRC 2025\.
 
-* **Evento:** 21ª Escola Regional de Redes de Computadores (ERRC 2025).  
+* **Evento:** 22ª Escola Regional de Redes de Computadores (ERRC 2025).  
 * **Publicação:** Anais da ERRC 2025 \- SBC (Sociedade Brasileira de Computação).  
 * **DOI:** [10.5753/errc.2025.17835](https://doi.org/10.5753/errc.2025.17835)  
 * **Link para o Artigo:** [SOL \- SBC Open Lib](https://sol.sbc.org.br/index.php/errc/article/view/39182)
