@@ -11,7 +11,7 @@ Este trabalho foi agraciado com o prêmio de **3º Melhor Artigo** da ERRC 2025\
 * **DOI:** [10.5753/errc.2025.17835](https://doi.org/10.5753/errc.2025.17835)  
 * **Link para o Artigo:** [SOL \- SBC Open Lib](https://sol.sbc.org.br/index.php/errc/article/view/39182)
 
-## **📝 Resumo**
+## **Resumo**
 
 Este trabalho otimiza um modelo de classificação de pacotes de rede baseado em vetores de similaridade para o dataset **CIC-IDS-2018**. Para enfrentar desafios de memória superiores a 100 GB de RAM encontrados na abordagem original baseada em k-NN, foi implementada a biblioteca **FAISS** (Facebook AI Similarity Search), substituindo o algoritmo tradicional e possibilitando a análise em hardware convencional com alta performance.
 
@@ -24,7 +24,7 @@ A replicação dos cenários de teste originais, acrescida de métricas de preci
 * Carlo Mantovani (PUCRS)  
 * Tiago Ferreto (PUCRS)
 
-## **⚙️ Requisitos e Desempenho**
+## **Requisitos e Desempenho**
 
 O código original exigia uma VM de alta performance (160GB+ RAM). Com as otimizações propostas neste trabalho (FAISS \+ Estruturas de Dados Vetorizadas), é possível executar os experimentos em hardware desktop moderno.
 
@@ -47,8 +47,9 @@ Siga os passos abaixo para configurar o ambiente e reproduzir os experimentos.
 
 ### **1\. Clonar o Repositório**
 
-git clone \[https://github.com/SEU-USUARIO/NOME-DO-REPO.git\](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)  
-cd NOME-DO-REPO
+git clone https://github.com/nicolaszk/ids-cicids2018.git
+
+cd ids-cicids2018
 
 ### **2\. Configurar o Ambiente Virtual (Recomendado)**
 
@@ -103,7 +104,7 @@ python src/main.py
    * *Teste 2:* Treino apenas com ataques majoritários, teste com todos.  
    * *Teste 3:* Simulação de larga escala (10% Treino / 90% Teste).
 
-## **📄 Citação**
+## **Citação**
 
 Se você utilizar este código ou metodologia em sua pesquisa, por favor cite nosso trabalho:
 
